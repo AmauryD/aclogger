@@ -1,0 +1,1 @@
+g++ -shared -m32 -o aclogger.so -fPIC aclogger.cpp
