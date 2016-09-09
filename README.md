@@ -13,9 +13,9 @@ File logger for the game arma 3
 
 ## Utilisation
 
-The extension is called in game with this command : ```"aclogger" callExtension "your_command" ```
-Arguments are separated in the string by the "$" symbol , the symbol "|" in string means a file separator
-This extension can only write in his folder (thedll/aclogger/) and subdirectories and can only write in .log files
+The extension is called in game with this command : ```"aclogger" callExtension "your_command" ```.
+Arguments are separated in the string by the "$" symbol , the symbol "|" in string means a file separator.
+This extension can only write in his folder (thedll/aclogger/) and subdirectories and can only write in .log files.
 
 - It has 5 functions who return "true" in case of success , "false" in case of fail or "nil" if nothing is handled :
   - write [function,file,content] : write text in the file
