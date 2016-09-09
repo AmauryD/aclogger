@@ -93,7 +93,7 @@ bool Logger::log(const std::string &text)
 bool Logger::clear()
 {
 	if(!isFileSet()) return false;
-	_file.open(_fileName, std::ofstream::trunc);
+	_file.open(_fileName.c_str(), std::ofstream::trunc);
 	if (!_file.is_open()) return false;
 	_file.close();
 	return true;
