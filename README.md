@@ -1,6 +1,6 @@
 # aclogger
 File logger for the game arma 3
-**Battleye seems to block it , i'm on it**
+**Battleye seems to block it on windows, i'm on it**
 
 ## Installation
 
